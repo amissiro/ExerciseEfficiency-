@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -26,22 +25,16 @@
 <body>
 
 <center>
-<h1>Welcome To The Exercise Efficiency App</h1>
+<h1>Welcome To The Exercise Efficiency Application</h1>
 
-  <div class="container">
-    <div class="login-container">
-      <div id="output"></div>
-      <div class="avatar"></div>
-      <div class="form-box">
-          <form id="loginFormId" action="" method="post" onsubmit="return false;">
-              <input name="user" id="usernameId" type="text" placeholder="username" required>
-              <input name="pass" id="passId" type="password" placeholder="password" required>
-              <input type='submit' id='submitLogin' value='Submit'>
-          </form>
-      </div>
-        
-  </div>
-</div>
+<center>
+<h1>Choose what do you wanna do today</h1>
+<button id="b1">CARDIO</button>
+<br>
+<br>
+<br>
+<button id="b2">WEIGHT LIFTING</button>
+</center>
 
 </center>
 </body>
