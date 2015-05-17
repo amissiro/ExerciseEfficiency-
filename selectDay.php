@@ -60,6 +60,9 @@
 
   </form>
 
+  <br><br>
+  <button id="submit" onClick="parent.location='index.php'">Submit</button>
+
 </center>
 </div>
 
