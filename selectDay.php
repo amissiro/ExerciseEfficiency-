@@ -27,8 +27,9 @@
   <center>
   <h2>Please select the days you wish to exercise</h2>
   <p>Check the following days of the week:</p>
-  <form role="form">
 
+  <form role="form">
+    <br>
 
     <label class="checkbox-inline">
       <input type="checkbox" value="">Sunday
