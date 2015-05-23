@@ -27,7 +27,15 @@
 <body>
 
 <center>
-This will be the login page
+<h1>Welcome To The Exercise Efficiency App!</h1>
+
+<h1>Choose which from of exercises you would like to do today</h1>
+<button id="btn1" onClick="parent.location='selectDay.php'">CARDIO</button>
+<br>
+<br>
+<br>
+<br>
+<button id="btn2" onClick="parent.location='selectDay.php'">WEIGHT LIFTING</button>
 
 
 </center>
