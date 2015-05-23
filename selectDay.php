@@ -26,7 +26,10 @@
 
   <center>
   <h2>Please select the days you wish to exercise</h2>
-  <p>Check the following days of the week:</p>
+  
+  <p>TODO:
+    When a user checks days it will create (a popup/balloon or a better idea?) that will ask them do you want this to be cardio or weight lifting day? 
+  </p>
 
   <form role="form">
     <br>
@@ -62,7 +65,7 @@
   </form>
 
   <br><br>
-  <button id="submit" onClick="parent.location='index.php'">Submit</button>
+  <button id="submit" onClick="parent.location='day.php'">Submit</button>
 
 </center>
 </div>
