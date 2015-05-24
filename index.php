@@ -1,6 +1,5 @@
-<?php 
-include 'includes/topPage.php'; 
-include 'includes/db_connect';
+<?php include 'includes/topPage.php'; ?>
+<?php include 'includes/db_connect'; ?>
 
 <center>
 <font size = "18">Welcome to the Exercise Efficiency Calendar!</font>
@@ -23,7 +22,7 @@ include 'includes/db_connect';
       <span class="sr-only">Error:</span>
         Enter valid login information
 
-        echo mysqli_get_host_info($dbConn); 
+        <?php echo mysqli_get_host_info($dbConn);
   </div>
    </form>
 
@@ -31,7 +30,4 @@ include 'includes/db_connect';
 
 </body>
 </html>
-
-include 'includes/bottomPage.php'; 
-
-?>
+<?php include 'includes/bottomPage.php'; ?>
