@@ -22,7 +22,7 @@
       <span class="sr-only">Error:</span>
         Enter valid login information
 
-        <?php echo mysqli_get_host_info($dbConn);
+        <?php echo mysqli_get_host_info($dbConn); ?>
   </div>
    </form>
 
@@ -30,4 +30,5 @@
 
 </body>
 </html>
+
 <?php include 'includes/bottomPage.php'; ?>
