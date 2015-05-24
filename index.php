@@ -28,5 +28,5 @@
 
 </body>
 </html>
-
+$conn->
 <?php include 'includes/bottomPage.php'; ?>
