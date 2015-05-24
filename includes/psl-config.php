@@ -1,20 +1,21 @@
 <?php
+print "<h1>hello</h1>";
 /**
  * These are the database login details
  */  
-$url = parse_url(getenv("mysql://b56ffe7f8b28aa:9115eb8a@us-cdbr-iron-east-02.cleardb.net/heroku_edd3784193355c6?reconnect=true"));
+// $url = parse_url(getenv("mysql://b56ffe7f8b28aa:9115eb8a@us-cdbr-iron-east-02.cleardb.net/heroku_edd3784193355c6?reconnect=true"));
 
-$server = $url["us-cdbr-iron-east-02.cleardb.net"];
-$username = $url["b56ffe7f8b28aa"];
-$password = $url["9115eb8a"];
-$db = substr($url["path"], 1);
+// $server = $url["us-cdbr-iron-east-02.cleardb.net"];
+// $username = $url["b56ffe7f8b28aa"];
+// $password = $url["9115eb8a"];
+// $db = substr($url["path"], 1);
 
-$conn = new mysqli($server, $username, $password, $db);
+// $conn = new mysqli($server, $username, $password, $db);
 
-if ($conn->connect_error){
+// if ($conn->connect_error){
 
-    die("Connection failed: " . $conn->connect_error);
-}
-print "<h1>Connected successfully</h1>";
-}
+//     die("Connection failed: " . $conn->connect_error);
+// }
+// //echo "Connected successfully";
+// }
 ?>
