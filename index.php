@@ -1,7 +1,7 @@
 <?php include 'includes/topPage.php'; ?>
 
 <center>
-Welcome to the Exercise Efficiency Calendar!
+
 
 
   <form class="form-signin" method="post" action="">
