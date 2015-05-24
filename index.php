@@ -1,5 +1,5 @@
 <?php include 'includes/topPage.php'; ?>
-<?php include 'includes/db_connect.php'; ?>
+<?php include 'includes/psl-config.php'; ?>
 
 <center>
 <font size = "18">Welcome to the Exercise Efficiency Calendar!</font>
