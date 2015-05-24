@@ -2,7 +2,7 @@
 <?php include 'includes/psl-config'; ?>
 
 <center>
-Welcome to the Exercise Efficiency Calendar!
+<font size = "18">Welcome to the Exercise Efficiency Calendar!</font>
 
 
   <form class="form-signin" method="post" action="">
