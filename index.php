@@ -1,7 +1,7 @@
 <?php include 'includes/topPage.php'; ?>
 
 <center>
-
+Welcome to the Exercise Efficiency Calendar!
 
 
   <form class="form-signin" method="post" action="">
@@ -11,7 +11,7 @@
     <input type="text" class="form-control" placeholder="Username" name = "username">
     <input type="password" class="form-control" placeholder="Password" name = "psw">
    
-    <button class="btn btn-lg btn-primary btn-block" type="submit">
+    <button class="btn btn-lg btn-primary btn-block" type="submit" onClick="parent.location='option.php'">
       Sign In
     </button>
     
@@ -28,5 +28,4 @@
 </body>
 </html>
 
-</body>
-</html>
+<?php include 'includes/bottomPage.php'; ?>
