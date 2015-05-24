@@ -22,7 +22,7 @@
       <span class="sr-only">Error:</span>
         Enter valid login information
 
-        <?php echo mysqli_get_host_info($dbConn); ?>
+        <?php $dbConn->mysqli_get_host_info(); ?>
   </div>
    </form>
 
