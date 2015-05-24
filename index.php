@@ -1,4 +1,5 @@
 <?php include 'includes/topPage.php'; ?>
+<?php include 'includes/psl-config'; ?>
 
 <center>
 Welcome to the Exercise Efficiency Calendar!
