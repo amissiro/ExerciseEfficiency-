@@ -1,5 +1,7 @@
-<?php include 'includes/topPage.php'; ?>
-<?php include 'includes/psl-config.php'; ?>
+<?php 
+
+//include 'includes/topPage.php'; 
+//include 'includes/psl-config.php'; 
 
 <center>
 <font size = "18">Welcome to the Exercise Efficiency Calendar!</font>
@@ -9,7 +11,7 @@
 
     <h1 class="form-signin-heading text-muted">Sign In
 
-      <?php echo  $dbConn->mysqli_get_host_info ?>
+      //php echo  $dbConn->mysqli_get_host_info 
 
     </h1>
     
@@ -34,4 +36,6 @@
 </body>
 </html>
 
-<?php include 'includes/bottomPage.php'; ?>
+include 'includes/bottomPage.php'; 
+
+?>
