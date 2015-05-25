@@ -10,6 +10,8 @@ $username = $url["user"];
 $password = $url["pass"];
 $db = substr($url["path"], 1);
 
+$conn = new mysqli($server, $username, $password, $db);
+
 define("HOST", $server); 
 define("USER", $username); 
 define("PASSWORD", $password); 
@@ -18,8 +20,6 @@ define("DATABASE", $db);
 define("CAN_REGISTER", "any"); 
 define("DEFAULT_ROLE", "member"); 
 define("SECURE", FALSE); 
-
-$dbConn = new mysqli(HOST, USER, PASSWORD, DATABASE);
 
 //$dbHost=mysql_connect("us-cdbr-iron-east-02.cleardb.net", "b56ffe7f8b28aa", "9115eb8a"); 
 //or die("Can't connect: " . mysql_error());
