@@ -9,7 +9,6 @@
 
     <h1 class="form-signin-heading text-muted">Sign In
 
-      <?php echo $conn->mysqli_get_host_info() ?>
 
     </h1>
     
