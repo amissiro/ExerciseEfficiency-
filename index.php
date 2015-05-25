@@ -9,7 +9,7 @@
 
     <h1 class="form-signin-heading text-muted">Sign In
 
-      <?php echo "hello world" ?>
+      <?php echo $dbConn->host_info ?>
 
     </h1>
     
