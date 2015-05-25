@@ -1,5 +1,5 @@
 <?php include 'includes/topPage.php'; ?>
-<?php include 'includes/db_connect'; ?>
+<?php include 'includes/psl-config.php'; ?>
 
 <center>
 <font size = "18">Welcome to the Exercise Efficiency Calendar!</font>
@@ -22,7 +22,8 @@
       <span class="sr-only">Error:</span>
         Enter valid login information
 
-        <?php echo  "server name is: $server"; ?>
+        <?php echo  $dbConn->mysqli_get_host_info ?>
+        
   </div>
    </form>
 

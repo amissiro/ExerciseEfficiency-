@@ -19,6 +19,8 @@ define("CAN_REGISTER", "any");
 define("DEFAULT_ROLE", "member"); 
 define("SECURE", FALSE); 
 
+$dbConn = new mysqli(HOST, USER, PASSWORD, DATABASE);
+
 //$dbHost=mysql_connect("us-cdbr-iron-east-02.cleardb.net", "b56ffe7f8b28aa", "9115eb8a"); 
 //or die("Can't connect: " . mysql_error());
 // mysql_select_db("heroku_edd3784193355c6", $dbHost);
