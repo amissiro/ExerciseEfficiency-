@@ -36,6 +36,6 @@
 </body>
 </html>
 
-include 'includes/bottomPage.php'; 
+//include 'includes/bottomPage.php'; 
 
 ?>
