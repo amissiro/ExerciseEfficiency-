@@ -1,3 +1,4 @@
+<?php require('../vendor/autoload.php'); ?>
 <?php include('includes/topPage.php'); ?>
 <?php include('includes/db_connect.php'); ?>
 
