@@ -7,7 +7,11 @@
 
   <form class="form-signin" method="post" action="">
 
-    <h1 class="form-signin-heading text-muted">Sign In</h1>
+    <h1 class="form-signin-heading text-muted">Sign In
+
+      <?php echo  $dbConn->mysqli_get_host_info ?>
+
+    </h1>
     
     <input type="text" class="form-control" placeholder="Username" name = "username">
     <input type="password" class="form-control" placeholder="Password" name = "psw">
@@ -22,8 +26,6 @@
       <span class="sr-only">Error:</span>
         Enter valid login information
 
-        <?php echo  $dbConn->mysqli_get_host_info ?>
-        
   </div>
    </form>
 
