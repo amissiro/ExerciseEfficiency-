@@ -6,14 +6,14 @@
 <font size = "18">Welcome to the Exercise Efficiency Calendar!</font>
 
 
-  <form class="form-signin" method="post" action="">
+  <form class="form-signin" method="post" action="option.php">
 
     <h1 class="form-signin-heading text-muted">Sign In </h1>
     
     <input type="text" class="form-control" placeholder="Username" name = "username">
     <input type="password" class="form-control" placeholder="Password" name = "psw">
    
-    <button class="btn btn-lg btn-primary btn-block" type="submit" onclick="window.location.href='option.php'">
+    <button class="btn btn-lg btn-primary btn-block" type="submit">
       Sign In
     </button>
     
