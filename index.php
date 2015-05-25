@@ -1,5 +1,5 @@
 <? php include("includes/topPage.php"); ?>
-<? php include("includes/psl-config.php"); ?>
+<? php include("includes/db_connect.php"); ?>
 
 <center>
 <font size = "18">Welcome to the Exercise Efficiency Calendar!</font>
@@ -7,10 +7,7 @@
 
   <form class="form-signin" method="post" action="">
 
-    <h1 class="form-signin-heading text-muted">Sign In
-
-
-    </h1>
+    <h1 class="form-signin-heading text-muted">Sign In </h1>
     
     <input type="text" class="form-control" placeholder="Username" name = "username">
     <input type="password" class="form-control" placeholder="Password" name = "psw">
