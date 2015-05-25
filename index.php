@@ -1,7 +1,5 @@
-<?php 
-
-//include 'includes/topPage.php'; 
-//include 'includes/psl-config.php'; 
+<!-- //include 'includes/topPage.php'; 
+//include 'includes/psl-config.php';  -->
 
 <center>
 <font size = "18">Welcome to the Exercise Efficiency Calendar!</font>
@@ -36,6 +34,5 @@
 </body>
 </html>
 
-//include 'includes/bottomPage.php'; 
+<!-- //include 'includes/bottomPage.php';  -->
 
-?>
