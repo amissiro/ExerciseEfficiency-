@@ -13,7 +13,7 @@
     <input type="text" class="form-control" placeholder="Username" name = "username">
     <input type="password" class="form-control" placeholder="Password" name = "psw">
    
-    <button class="btn btn-lg btn-primary btn-block" type="submit" onClick="parent.location='option.php'">
+    <button class="btn btn-lg btn-primary btn-block" type="submit" onclick="window.location.href='option.php'">
       Sign In
     </button>
     
