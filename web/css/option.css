@@ -1,0 +1,88 @@
+.button1 .button2{
+
+}
+
+.button1 a{
+
+  border-radius:25px;
+  -moz-border-radius:25px;
+  padding: 100px;
+  cursor:crosshair;
+  text-transform:uppercase;
+  z-index:2;
+  font-size:36px;
+  color:#fff;
+  text-align:center;
+  text-shadow:0 1px 0 #000;
+  white-space:nowrap;
+  font-family:'Fjalla One';
+  text-decoration:none;
+  vertical-align:bottom;
+  background:-webkit-linear-gradient(top, #38362E, #2E2D26);
+  background:-moz-linear-gradient(top, #38362E, #2E2D26);
+  background:-o-linear-gradient(top, #38362E, #2E2D26);
+  background:linear-gradient(top, #38362E, #2E2D26);
+  box-shadow:inset 0 1px 0 0 #605E59, 0 1px 6px #13120F;
+  position:absolute;
+  top:25%;
+  margin-top:0px;
+  left:10%;
+  margin-left:0px; 
+  overflow:auto;
+
+}
+
+.button1 a:active{
+
+  padding: 85px;
+  background:-webkit-linear-gradient(top, #1C1B17, #323028);
+  background:-moz-linear-gradient(top, #1C1B17, #323028);
+  background:-o-linear-gradient(top, #1C1B17, #323028);
+  background:linear-gradient(top, #1C1B17, #323028);
+  box-shadow:inset 0 1px 4px 0 #000, inset 0 -1px 0 rgba(0,0,0, .3), 0 1px 0 #4C4B44;
+  overflow:auto;
+
+}
+
+.button2 a{
+
+  border-radius:25px;
+  -moz-border-radius:25px;
+  padding: 100px;
+  cursor:crosshair;
+  text-transform:uppercase;
+  z-index:2;
+  font-size:36px;
+  color:#fff;
+  text-align:center;
+  text-shadow:0 1px 0 #000;
+  white-space:nowrap;
+  font-family:'Fjalla One';
+  text-decoration:none;
+  vertical-align:bottom;
+  background:-webkit-linear-gradient(top, #38362E, #2E2D26);
+  background:-moz-linear-gradient(top, #38362E, #2E2D26);
+  background:-o-linear-gradient(top, #38362E, #2E2D26);
+  background:linear-gradient(top, #38362E, #2E2D26);
+  box-shadow:inset 0 1px 0 0 #605E59, 0 1px 6px #13120F;
+  position:absolute;
+  top:25%;
+  margin-top:0px;
+  left:55%;
+  margin-left:0px; 
+  overflow:auto;
+
+}
+
+.button2 a:active{
+
+  padding: 85px;
+  background:-webkit-linear-gradient(top, #1C1B17, #323028);
+  background:-moz-linear-gradient(top, #1C1B17, #323028);
+  background:-o-linear-gradient(top, #1C1B17, #323028);
+  background:linear-gradient(top, #1C1B17, #323028);
+  box-shadow:inset 0 1px 4px 0 #000, inset 0 -1px 0 rgba(0,0,0, .3), 0 1px 0 #4C4B44; 
+  overflow:auto;
+
+}
+

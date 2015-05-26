@@ -1,10 +1,8 @@
-<?php require('../vendor/autoload.php'); ?>
 <?php include('includes/topPage.php'); ?>
 <?php include('includes/db_connect.php'); ?>
 
 <center>
 <font size = "18">Welcome to the Exercise Efficiency Calendar!</font>
-
 
   <form class="form-signin" method="post" action="option.php">
 
@@ -27,8 +25,5 @@
    </form>
 
 </center>
-
-</body>
-</html>
  
 <?php include("includes/bottomPage.php"); ?>
