@@ -2,7 +2,6 @@
 <?php include('includes/db_connect.php'); ?>
 
 <body>
-
 <div class="ct" id="tm3">
 <div class="ct" id="tm2">
  <div class="ct" id="tm1">
@@ -37,34 +36,61 @@
         </ul>
         
         <div class="page" id="p1">
-          <section class="icon fa fa-bolt"><span class="title">ExcerciseEfficiency</span></section>
+          <section class="icon fa fa-bolt" style="text-align: center; "><span class="title">ExcerciseEfficiency</span></section>
         </div>
         
         <div class="page" id="pm3">
-          <section class="icon fa fa-bed"><span class="title">Thursday</span></section>
+          <section class="icon fa fa-bed"><span class="title" ></span>
+          
+			<button class="btn btn-3 btn-sep icon-heart">Cardio</button>
+			<button class="btn btn-4 btn-sep icon-dumbbell">Weights</button>
+          
+          
+          </section>
         </div>
         
         <div class="page" id="p0">
-          <section class="icon fa fa-bed"><span class="title">Wednesday</span></section>
+          <section class="icon fa fa-bed"><span class="title"></span>
+          
+           <button class="btn btn-3 btn-sep icon-heart">Cardio</button>
+			<button class="btn btn-4 btn-sep icon-dumbbell">Weights</button>
+          
+          </section>
         </div>
+        
         <div class="page" id="pm1">
-          <section class="icon fa fa-bed"><span class="title">Tuesday</span></section>
+          <section class="icon fa fa-bed"><span class="title"></span>
+          <button class="btn btn-3 btn-sep icon-heart">Cardio</button>
+			<button class="btn btn-4 btn-sep icon-dumbbell">Weights</button>
+          </section>
         </div>
+        
         <div class="page" id="pm2">
-          <section class="icon fa fa-bed"><span class="title">Monday</span></section>
+          <section class="icon fa fa-bed"><span class="title"></span>
+          <button class="btn btn-3 btn-sep icon-heart">Cardio</button>
+			<button class="btn btn-4 btn-sep icon-dumbbell">Weights</button>
+          </section>
         </div>
         
         <div class="page" id="p2">
-          <section class="icon fa fa-bed"><span class="title">Friday</span></section>
+          <section class="icon fa fa-bed"><span class="title"></span>
+          <button class="btn btn-3 btn-sep icon-heart">Cardio</button>
+			<button class="btn btn-4 btn-sep icon-dumbbell">Weights</button>
+          </section>
         </div>
         
         <div class="page" id="p3">
-          <section class="icon fa fa-bed"><span class="title">Saturday</span></section>
+          <section class="icon fa fa-bed"><span class="title"></span>
+          <button class="btn btn-3 btn-sep icon-heart">Cardio</button>
+			<button class="btn btn-4 btn-sep icon-dumbbell">Weights</button>
+          </section>
         </div>
         
         <div class="page" id="p4">
           <section class="icon fa fa-bed">
-            <span class="title">Sunday</span>
+            <span class="title"></span>
+            <button class="btn btn-3 btn-sep icon-heart">Cardio</button>
+			<button class="btn btn-4 btn-sep icon-dumbbell">Weights</button>
           </section>
         </div>
 
@@ -80,5 +106,6 @@
 
 </body>
 </html>
+
 
 <?php include("includes/bottomPage.php"); ?>

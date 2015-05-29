@@ -17,6 +17,8 @@
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css'> 
   
   <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/buttons.css">
+
   <link href="css/option.css" rel="stylesheet">
   <link href="css/selectDay.css" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
