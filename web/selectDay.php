@@ -43,7 +43,7 @@
           <section class="icon"><span class="title" ></span>
 			<button class="btn btn-3 btn-sep icon-heart">Cardio</button>
 			<button class="btn btn-4 btn-sep icon-dumbbell">Weights</button>
-          <div class="thumbnail-grid flex">
+          <div class="thumbnail-grid flex" style="margin:auto">
   <a href="https://sinfonietta-meridiana.de/" target="_blank" class="flex-item">
     <figure class="i1">
       <figcaption>Running</figcaption>
