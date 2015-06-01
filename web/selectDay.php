@@ -69,6 +69,7 @@
       <figcaption>Boxing</figcaption>
     </figure>
   </a>
+  <br>
        <a href="https://goerlitzmade.com/en/" target="_blank" class="flex-item">
     <figure class="i6">
       <figcaption>Walking</figcaption>
