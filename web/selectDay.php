@@ -39,7 +39,7 @@
           <section class="icon fa fa-bolt" style="text-align: center; "><span class="title">ExcerciseEfficiency</span></section>
         </div>
         
-        <div class="page" id="pm3" style="margin:auto; max-width: 60em;">
+        <div class="page" id="pm3" style="margin:auto;">
           <section class="icon"><span class="title" ></span>
 			<button class="btn btn-3 btn-sep icon-heart">Cardio</button>
 			<button class="btn btn-4 btn-sep icon-dumbbell">Weights</button>
