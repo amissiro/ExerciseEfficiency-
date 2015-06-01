@@ -1,3 +1,4 @@
+/* 
 * {
 	box-sizing: border-box
 }
@@ -20,6 +21,7 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	user-select: text
 }
+ */
 a {
 	color: #282828;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0)
