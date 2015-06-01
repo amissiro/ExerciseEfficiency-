@@ -40,18 +40,14 @@
         </div>
         
         <div class="page" id="pm3">
-          <section class="icon fa fa-bed"><span class="title" ></span>
-          
+          <section class="icon"><span class="title" ></span>
 			<button class="btn btn-3 btn-sep icon-heart">Cardio</button>
 			<button class="btn btn-4 btn-sep icon-dumbbell">Weights</button>
-          
-          
           </section>
         </div>
         
         <div class="page" id="p0">
-          <section class="icon fa fa-bed"><span class="title"></span>
-          
+          <section class="icon"><span class="title"></span>
            <button class="btn btn-3 btn-sep icon-heart">Cardio</button>
 			<button class="btn btn-4 btn-sep icon-dumbbell">Weights</button>
           
@@ -59,21 +55,21 @@
         </div>
         
         <div class="page" id="pm1">
-          <section class="icon fa fa-bed"><span class="title"></span>
+          <section class="icon"><span class="title"></span>
           <button class="btn btn-3 btn-sep icon-heart">Cardio</button>
 			<button class="btn btn-4 btn-sep icon-dumbbell">Weights</button>
           </section>
         </div>
         
         <div class="page" id="pm2">
-          <section class="icon fa fa-bed"><span class="title"></span>
+          <section class="icon "><span class="title"></span>
           <button class="btn btn-3 btn-sep icon-heart">Cardio</button>
 			<button class="btn btn-4 btn-sep icon-dumbbell">Weights</button>
           </section>
         </div>
         
         <div class="page" id="p2">
-          <section class="icon fa fa-bed"><span class="title"></span>
+          <section class="icon"><span class="title"></span>
           <button class="btn btn-3 btn-sep icon-heart">Cardio</button>
 			<button class="btn btn-4 btn-sep icon-dumbbell">Weights</button>
           </section>
@@ -87,7 +83,7 @@
         </div>
         
         <div class="page" id="p4">
-          <section class="icon fa fa-bed">
+          <section class="icon">
             <span class="title"></span>
             <button class="btn btn-3 btn-sep icon-heart">Cardio</button>
 			<button class="btn btn-4 btn-sep icon-dumbbell">Weights</button>
