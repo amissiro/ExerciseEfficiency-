@@ -1,0 +1,141 @@
+* {
+	box-sizing: border-box
+}
+html {
+	font-size: 62.5%;
+	height: 100%
+} 
+body {
+	font-size: 15px;
+	font-size: 1.5rem;
+	font-family: source-sans-pro,"Helvetica Neue",HelveticaNeue,TeXGyreHeros,FreeSans,"Nimbus Sans L","Liberation Sans",Arimo,Helvetica,Arial,sans-serif;
+	color: #282828;
+	background-color: #f4f4f4;
+	z-index: 0;
+	max-width: 60em;
+	margin: auto;
+	transition: all 0.2s ease-in-out;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	user-select: text
+}
+a {
+	color: #282828;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+a:hover {
+	text-decoration: none
+}
+a:focus {
+	outline: none
+}
+p {
+	text-align: center;
+	hyphens: auto
+}
+h1 {
+	text-align: center;
+	font-weight: 400;
+	font-style: italic;
+	margin: 35px;
+	user-select: none;
+	cursor: default
+}
+
+.thumbnail-grid {
+	user-select: none
+}
+.thumbnail-grid figure {
+	position: relative;
+	min-width: 200px;
+	height: 150px;
+	margin: 5px;
+	border-radius: 3px;
+	box-shadow: inset 0 -40px 0 0 rgba(0, 0, 0, 0.1);
+	transition: all .2s ease-in-out
+}
+.thumbnail-grid figure:hover {
+	box-shadow: inset 0 -150px 0 0 rgba(0, 0, 0, 0.5)
+}
+.thumbnail-grid figcaption {
+	position: absolute;
+	width: 100%;
+	font-weight: 300;
+	text-align: center;
+	color: #f4f4f4;
+	text-shadow: 0 0 3px black;
+	bottom: 10px;
+	transition: all .2s ease-in-out
+}
+.thumbnail-grid figure:hover figcaption {
+	bottom: 60px
+}
+.flex {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: stretch
+}
+.flex-item {
+	flex: 1 0 auto
+}
+
+
+
+.thumbnail-grid figure.i1 {
+	background: url(http://assets1.bigthink.com/system/idea_thumbnails/42663/original/exercise%20jogging%20SS.jpg?1330270483) no-repeat center;
+	background-size: cover
+}
+.thumbnail-grid figure.i2 {
+	background: url(https://pbs.twimg.com/profile_images/1441400918/Swimming.jpg) no-repeat center;
+	background-size: cover
+}
+.thumbnail-grid figure.i3 {
+	background: url(https://saubuzz.files.wordpress.com/2011/03/joggin.jpg) no-repeat center;
+	background-size: cover
+}
+.thumbnail-grid figure.i4 {
+	background: url(https://scontent.cdninstagram.com/hphotos-xtp1/t51.2885-15/s320x320/e15/11142910_473083512844117_2018165349_n.jpg) no-repeat center;
+	background-size: cover
+}
+.thumbnail-grid figure.i5 {
+	background: url(https://www.storesonlinepro.com/files/2313598/uploaded/Boxing%20the%20Bag%202.jpg) no-repeat center;
+	background-size: cover
+}
+.thumbnail-grid figure.i6 {
+	background: url(https://freestylelanguagecenter.files.wordpress.com/2013/05/nordicwalking3.jpg) no-repeat center;
+	background-size: cover
+}
+.thumbnail-grid figure.i7 {
+	background: url(https://www.managemylife.com/images/13274/original/jump-rope-05.jpg?1320682269) no-repeat center;
+	background-size: cover
+}
+
+.thumbnail-grid figure.i8 {
+	background: url(http://upperlimits.com/west-county/wp-content/uploads/2014/05/yoga-1024x763.jpg) no-repeat center;
+	background-size: cover
+}
+https://freestylelanguagecenter.files.wordpress.com/2013/05/nordicwalking3.jpg
+@media print,
+	(-o-min-device-pixel-ratio: 5/4),
+	(-webkit-min-device-pixel-ratio: 1.25),
+	(min-resolution: 120dpi) {
+	.thumbnail-grid figure.i1 {
+		background-image: url(https://anselmurban.de/codepen-img/sinfonietta-meridiana%402x.png)
+	}
+	.thumbnail-grid figure.i2 {
+		background-image: url(https://anselmurban.de/codepen-img/pension%402x.png)
+	}
+	.thumbnail-grid figure.i3 {
+		background-image: url(https://anselmurban.de/codepen-img/goerlitzmade%402x.png)
+	}
+	.thumbnail-grid figure.i4 {
+		background-image: url(https://anselmurban.de/codepen-img/goerlitzmade%402x.png)
+	}
+	.thumbnail-grid figure.i5 {
+		background-image: url(https://anselmurban.de/codepen-img/goerlitzmade%402x.png)
+	}
+}

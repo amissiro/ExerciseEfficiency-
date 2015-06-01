@@ -27,7 +27,10 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="https://www.parsecdn.com/js/parse-1.2.18.min.js"></script>
   <script type = "text/javascript" src="js/option.js"></script>
+<link rel="stylesheet" href="css/normalizeCardioButtons.css">  
+<link rel="stylesheet" href="css/styleCardioButtons.css">    
 
+ <script src="js/prefixfree.min.js"></script>
 
   
 

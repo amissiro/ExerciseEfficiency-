@@ -44,6 +44,48 @@
 			<button class="btn btn-3 btn-sep icon-heart">Cardio</button>
 			<button class="btn btn-4 btn-sep icon-dumbbell">Weights</button>
           </section>
+          <div class="thumbnail-grid flex">
+  <a href="https://sinfonietta-meridiana.de/" target="_blank" class="flex-item">
+    <figure class="i1">
+      <figcaption>Running</figcaption>
+    </figure>
+  </a>
+  <a href="https://pension-am-alten-waschhaus.de/en/" target="_blank" class="flex-item">
+    <figure class="i2">
+      <figcaption>Swimming</figcaption>
+    </figure>
+  </a>
+  <a href="https://goerlitzmade.com/en/" target="_blank" class="flex-item">
+    <figure class="i3">
+      <figcaption>Jogging</figcaption>
+    </figure>
+  </a>
+   <a href="https://goerlitzmade.com/en/" target="_blank" class="flex-item">
+    <figure class="i4">
+      <figcaption>Bicycle</figcaption>
+    </figure>
+  </a>
+     <a href="https://goerlitzmade.com/en/" target="_blank" class="flex-item">
+    <figure class="i5">
+      <figcaption>Boxing</figcaption>
+    </figure>
+  </a>
+       <a href="https://goerlitzmade.com/en/" target="_blank" class="flex-item">
+    <figure class="i6">
+      <figcaption>Walking</figcaption>
+    </figure>
+  </a>
+       <a href="https://goerlitzmade.com/en/" target="_blank" class="flex-item">
+    <figure class="i7">
+      <figcaption>Jump Rope</figcaption>
+    </figure>
+  </a>
+       <a href="https://goerlitzmade.com/en/" target="_blank" class="flex-item">
+    <figure class="i8">
+      <figcaption>Yoga</figcaption>
+    </figure>
+  </a>
+</div>
         </div>
         
         <div class="page" id="p0">
