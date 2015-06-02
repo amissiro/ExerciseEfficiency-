@@ -23,7 +23,7 @@ body {
 }
  */
 a {
-	color: #282828;
+	color: red;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0)
 }
 a:hover {
@@ -32,30 +32,24 @@ a:hover {
 a:focus {
 	outline: none
 }
-p {
-	text-align: center;
-	hyphens: auto
-}
-h1 {
-	text-align: center;
-	font-weight: 400;
-	font-style: italic;
-	margin: 35px;
-	user-select: none;
-	cursor: default
-}
 
 .thumbnail-grid {
-	user-select: none
+/* 
+	user-select: none;
+ */
 }
 .thumbnail-grid figure {
-	position: relative;
+	position: relative;	
+/* 
+	max-width: 90em;
+ */
 	min-width: 200px;
 	height: 150px;
 	margin: 15px;
-	border-radius: 13px;
+	border-radius: 25px;
 	box-shadow: inset 0 -40px 0 0 rgba(0, 0, 0, 0.1);
 	transition: all .2s ease-in-out
+
 }
 .thumbnail-grid figure:hover {
 	box-shadow: inset 0 -150px 0 0 rgba(0, 0, 0, 0.5)
@@ -120,7 +114,40 @@ h1 {
 	background: url(http://upperlimits.com/west-county/wp-content/uploads/2014/05/yoga-1024x763.jpg) no-repeat center;
 	background-size: cover
 }
-https://freestylelanguagecenter.files.wordpress.com/2013/05/nordicwalking3.jpg
+
+.thumbnail-grid figure.i9 {
+	background: url(http://bodybuilding.com/fun/images/2012/kelechi-oparas-targeted-chest-workout_b.jpg) no-repeat center;
+	background-size: cover
+}
+.thumbnail-grid figure.i10 {
+	background: url(https://t-nation.com/img/photos/2012/12-729-03/leg-press.jpg) no-repeat center;
+	background-size: cover
+}
+.thumbnail-grid figure.i11 {
+	background: url(http://muscleandfitness.com/sites/muscleandfitness.com/files/styles/full_node_image_1090x614/public/arm-workout_4.jpg?itok=Orrh-0f4) no-repeat center;
+	background-size: cover
+}
+.thumbnail-grid figure.i12 {
+	background: url(http://musclegrowthexpert.com/wp-content/uploads/2014/05/deltoids-e1401722914705.jpg) no-repeat center;
+	background-size: cover
+}
+.thumbnail-grid figure.i13 {
+	background: url(http://www.bentleygoodhealth.com/big%20back%202.jpg) no-repeat center;
+	background-size: cover
+}
+.thumbnail-grid figure.i14 {
+	background: url(http://athleticx.net/articles/wp-content/uploads/2012/11/upper-back-workout-940x500.jpg) no-repeat center;
+	background-size: cover
+}
+.thumbnail-grid figure.i15 {
+	background: url(http://muscleandfitness.com/sites/muscleandfitness.com/files/styles/full_node_image_1090x614/public/six-pack-abs-burn-fat_5.jpg?itok=KaaGxDZ0) no-repeat center;
+	background-size: cover
+}
+
+.thumbnail-grid figure.i16 {
+	background: url(http://www.shapefit.com/wp-content/uploads/2015/04/neck-harness.jpg) no-repeat center;
+	background-size: cover
+}
 @media print,
 	(-o-min-device-pixel-ratio: 5/4),
 	(-webkit-min-device-pixel-ratio: 1.25),

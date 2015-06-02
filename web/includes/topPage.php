@@ -31,8 +31,8 @@
 <link rel="stylesheet" href="css/styleCardioButtons.css">    
 
  <script src="js/prefixfree.min.js"></script>
-
-  
+  <script src="js/switchViews.js"></script>
+ <script src="js/index.js"></script>    
 
 </head>
 

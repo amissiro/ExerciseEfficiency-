@@ -2,6 +2,7 @@
 <?php include('includes/db_connect.php'); ?>
 
 <body>
+
 <div class="ct" id="tm3">
 <div class="ct" id="tm2">
  <div class="ct" id="tm1">
@@ -39,11 +40,13 @@
           <section class="icon fa fa-bolt" style="text-align: center; "><span class="title">ExcerciseEfficiency</span></section>
         </div>
         
-        <div class="page" id="pm3" style="margin:auto;">
+        <div class="page" id="pm3">
           <section class="icon"><span class="title" ></span>
-			<button class="btn btn-3 btn-sep icon-heart">Cardio</button>
-			<button class="btn btn-4 btn-sep icon-dumbbell">Weights</button>
-          <div class="thumbnail-grid flex">
+			<button class="btn btn-3 btn-sep icon-heart" onclick="showCardio()">Cardio</button>
+			<button class="btn btn-4 btn-sep icon-dumbbell" onclick="showWeights()">Weights</button>
+  
+<div id="stollcardio" style="display:none">
+  <div class="thumbnail-grid flex">
   <a href="https://sinfonietta-meridiana.de/" target="_blank" class="flex-item">
     <figure class="i1">
       <figcaption>Running</figcaption>
@@ -69,8 +72,7 @@
       <figcaption>Boxing</figcaption>
     </figure>
   </a>
-  <br>
-       <a href="https://goerlitzmade.com/en/" target="_blank" class="flex-item">
+  <a href="https://goerlitzmade.com/en/" target="_blank" class="flex-item">
     <figure class="i6">
       <figcaption>Walking</figcaption>
     </figure>
@@ -80,18 +82,66 @@
       <figcaption>Jump Rope</figcaption>
     </figure>
   </a>
-       <a href="https://goerlitzmade.com/en/" target="_blank" class="flex-item">
+   <a href="https://goerlitzmade.com/en/" target="_blank" class="flex-item">
     <figure class="i8">
       <figcaption>Yoga</figcaption>
     </figure>
   </a>
+ </div>
 </div>
-          </section>
 
-        </div>
+<!--Weights-->
+
+  <div id = "stollweights" style="display:none">
+   <div class="thumbnail-grid flex">
+     <a href="https://goerlitzmade.com/en/" target="_blank" class="flex-item">
+     <figure class="i9">
+       <figcaption>Chest</figcaption>
+     </figure>
+     </a>
+     <a href="https://goerlitzmade.com/en/" target="_blank" class="flex-item">
+     <figure class="i10">
+       <figcaption>Legs</figcaption>
+     </figure>
+     </a>
+     <a href="https://goerlitzmade.com/en/" target="_blank" class="flex-item">
+     <figure class="i11">
+       <figcaption>Arms</figcaption>
+     </figure>
+     </a>
+     <a href="https://goerlitzmade.com/en/" target="_blank" class="flex-item">
+     <figure class="i12">
+       <figcaption>Shoulders</figcaption>
+     </figure>
+     </a>
+     <a href="https://goerlitzmade.com/en/" target="_blank" class="flex-item">
+     <figure class="i13">
+       <figcaption>LowerBack</figcaption>
+     </figure>
+     </a>
+     <a href="https://goerlitzmade.com/en/" target="_blank" class="flex-item">
+     <figure class="i14">
+       <figcaption>UpperBack</figcaption>
+     </figure>
+     </a>
+     <a href="https://goerlitzmade.com/en/" target="_blank" class="flex-item">
+     <figure class="i15">
+       <figcaption>Abs</figcaption>
+     </figure>
+     </a>
+     <a href="https://goerlitzmade.com/en/" target="_blank" class="flex-item">
+     <figure class="i16">
+       <figcaption>Neck</figcaption>
+     </figure>
+     </a>
+    </div>
+  </div>
+ </section>
+</div>
         
         <div class="page" id="p0">
           <section class="icon"><span class="title"></span>
+          
            <button class="btn btn-3 btn-sep icon-heart">Cardio</button>
 			<button class="btn btn-4 btn-sep icon-dumbbell">Weights</button>
           
@@ -99,21 +149,21 @@
         </div>
         
         <div class="page" id="pm1">
-          <section class="icon"><span class="title"></span>
+          <section class="icon fa fa-bed"><span class="title"></span>
           <button class="btn btn-3 btn-sep icon-heart">Cardio</button>
 			<button class="btn btn-4 btn-sep icon-dumbbell">Weights</button>
           </section>
         </div>
         
         <div class="page" id="pm2">
-          <section class="icon "><span class="title"></span>
+          <section class="icon fa fa-bed"><span class="title"></span>
           <button class="btn btn-3 btn-sep icon-heart">Cardio</button>
 			<button class="btn btn-4 btn-sep icon-dumbbell">Weights</button>
           </section>
         </div>
         
         <div class="page" id="p2">
-          <section class="icon"><span class="title"></span>
+          <section class="icon fa fa-bed"><span class="title"></span>
           <button class="btn btn-3 btn-sep icon-heart">Cardio</button>
 			<button class="btn btn-4 btn-sep icon-dumbbell">Weights</button>
           </section>
@@ -127,7 +177,7 @@
         </div>
         
         <div class="page" id="p4">
-          <section class="icon">
+          <section class="icon fa fa-bed">
             <span class="title"></span>
             <button class="btn btn-3 btn-sep icon-heart">Cardio</button>
 			<button class="btn btn-4 btn-sep icon-dumbbell">Weights</button>
@@ -138,14 +188,10 @@
     </div>
   </div>
  </div>
-</div>
+ </div>
  </div>
 </div>
-
-<script src="js/index.js"></script>    
-
+</div>
 </body>
 </html>
-
-
 <?php include("includes/bottomPage.php"); ?>
