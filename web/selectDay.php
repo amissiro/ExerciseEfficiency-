@@ -29,10 +29,10 @@
       <div class="ct" id="t4">
       
         <ul id="menu">
-         <a href="#tm2" onclick="reset();return false;">
+         <a href="#tm2" onclick="resetButtons();return false;">
             <li class="icon fa fa-calendar" id="m2"><br>Monday</li>
           </a>
-          <a href="#tm1" onclick="reset();return false;">
+          <a href="#tm1" onclick="resetButtons();return false;">
             <li class="icon fa fa-calendar" id="m1"><br>Tuesday</li>
           </a>
           <a href="#t0">
