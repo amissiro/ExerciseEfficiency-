@@ -32,7 +32,7 @@
          <a href="#tm2" onclick="resetButtons();return true;">
             <li class="icon fa fa-calendar" id="m2"><br>Monday</li>
           </a>
-          <a href="#tm1" onclick="alert('xxxx');return true;">
+          <a href="#tm1" onclick="resetButtons();return true;">
             <li class="icon fa fa-calendar" id="m1"><br>Tuesday</li>
           </a>
           <a href="#t0">
@@ -59,7 +59,7 @@
   
         <!-- Tuesday -->
         <div class="page" id="pm1">
-          <?php include('icons1.php'); ?>
+          <?php include('icons.php'); ?>
         </div> 
 
 
