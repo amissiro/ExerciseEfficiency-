@@ -160,7 +160,7 @@
         <!-- Tuesday -->
         <div class="page" id="pm1">
 
-          
+
 <section class="icon"><span class="title" ></span>
       <button class="btn btn-3 btn-sep icon-heart" onclick="showCardio()">Cardio</button>
       <button class="btn btn-4 btn-sep icon-dumbbell" onclick="showWeights()">Weights</button>
@@ -262,28 +262,28 @@
 
         <!-- Wednesday -->
         <div class="page" id="p0"> 
-        <?php include('icons.php'); ?>
+
         </div> 
 
 
         <!-- Thursday -->
         <div class="page" id="pm3">
-        <?php include('icons.php'); ?>
+
         </div>   
 
         <!-- Friday -->
         <div class="page" id="p2">
-        <?php include('icons.php'); ?>
+
         </div>
         
         <!-- Saturday -->
         <div class="page" id="p3">
-        <?php include('icons.php'); ?>
+
         </div>
         
         <!-- Sunday -->
         <div class="page" id="p4">
-        <?php include('icons.php'); ?>
+          
         </div>
 
      </div>
