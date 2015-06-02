@@ -39,62 +39,55 @@
         <div class="page" id="p1">
           <section class="icon fa fa-bolt" style="text-align: center; "><span class="title">ExcerciseEfficiency</span></section>
         </div>
-        
-        <div class="page" id="pm3">
-          
-          <?php include('icons.php'); ?>
+      
 
-        </div>
-        
-        <div class="page" id="p0">
-          
-          <?php include('icons.php'); ?>
-        </div>
-        
-        <div class="page" id="pm1">
-          <section class="icon fa fa-bed"><span class="title"></span>
-          <button class="btn btn-3 btn-sep icon-heart">Cardio</button>
-			<button class="btn btn-4 btn-sep icon-dumbbell">Weights</button>
-          </section>
-        </div>
-        
+        <!-- Monday -->
         <div class="page" id="pm2">
-          <section class="icon fa fa-bed"><span class="title"></span>
-          <button class="btn btn-3 btn-sep icon-heart">Cardio</button>
-			<button class="btn btn-4 btn-sep icon-dumbbell">Weights</button>
-          </section>
+        <?php include('icons.php'); ?>
         </div>
-        
+  
+        <!-- Tuesday -->
+        <div class="page" id="pm1">
+        <?php include('icons.php'); ?>
+        </div> 
+
+
+        <!-- Wednesday -->
+        <div class="page" id="p0"> 
+        <?php include('icons.php'); ?>
+        </div> 
+
+
+        <!-- Thursday -->
+        <div class="page" id="pm3">
+        <?php include('icons.php'); ?>
+        </div>   
+
+        <!-- Friday -->
         <div class="page" id="p2">
-          <section class="icon fa fa-bed"><span class="title"></span>
-          <button class="btn btn-3 btn-sep icon-heart">Cardio</button>
-			<button class="btn btn-4 btn-sep icon-dumbbell">Weights</button>
-          </section>
+        <?php include('icons.php'); ?>
         </div>
         
+        <!-- Saturday -->
         <div class="page" id="p3">
-          <section class="icon fa fa-bed"><span class="title"></span>
-          <button class="btn btn-3 btn-sep icon-heart">Cardio</button>
-			<button class="btn btn-4 btn-sep icon-dumbbell">Weights</button>
-          </section>
+        <?php include('icons.php'); ?>
         </div>
         
+        <!-- Sunday -->
         <div class="page" id="p4">
-          <section class="icon fa fa-bed">
-            <span class="title"></span>
-            <button class="btn btn-3 btn-sep icon-heart">Cardio</button>
-			<button class="btn btn-4 btn-sep icon-dumbbell">Weights</button>
-          </section>
+        <?php include('icons.php'); ?>
         </div>
 
-     </div>
-    </div>
-  </div>
- </div>
- </div>
- </div>
+
+
 </div>
 </div>
-</body>
-</html>
+</div>
+</div>
+</div>
+</div>
+</div> 
+</div>
+
 <?php include("includes/bottomPage.php"); ?>
+
