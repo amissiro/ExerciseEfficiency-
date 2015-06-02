@@ -2,7 +2,7 @@
 			<button class="btn btn-3 btn-sep icon-heart" onclick="showCardio()">Cardio</button>
 			<button class="btn btn-4 btn-sep icon-dumbbell" onclick="showWeights()">Weights</button>
   <br><br><br><br><br>
-<div id="stollcardio" style="display:none">
+<div id="stollcardio" style="display:initial">
   <div class="thumbnail-grid flex">
   <a href="form.php" target="_blank" class="flex-item">
     <figure class="i1">

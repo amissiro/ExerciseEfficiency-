@@ -1,6 +1,5 @@
  
     function showCardio(){ 
-       alert('hello');
        document.getElementById("stollweights").style.display="none";
        document.getElementById("stollcardio").style.display="initial";
     }
