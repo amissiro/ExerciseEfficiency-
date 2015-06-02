@@ -54,7 +54,9 @@
         
         <!-- Monday -->
         <div class="page" id="pm2">
+<!-- 
           <?php include('icons.php'); ?>
+ -->
         </div>
   
 
