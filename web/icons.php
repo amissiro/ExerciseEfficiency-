@@ -4,7 +4,7 @@
   <br><br><br><br><br>
 <div id="stollcardio" style="display:none">
   <div class="thumbnail-grid flex">
-  <a href="https://sinfonietta-meridiana.de/" target="_blank" class="flex-item">
+  <a href="form.php" target="_blank" class="flex-item">
     <figure class="i1">
       <figcaption>Running</figcaption>
     </figure>
