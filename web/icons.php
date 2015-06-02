@@ -1,18 +1,4 @@
- <script>
-    function showCardio(){
-    
-       document.getElementById("stollweights").style.display="none";
-       document.getElementById("stollcardio").style.display="initial";
 
-    }
- 
-     function showWeights(){
-    
-       document.getElementById("stollcardio").style.display="none";
-       document.getElementById("stollweights").style.display="initial";
-    }
-
-</script>
 
 <section class="icon"><span class="title" ></span>
 			<button class="btn btn-3 btn-sep icon-heart" onclick="showCardio()">Cardio</button>

@@ -1,6 +1,22 @@
 <?php include('includes/topPage.php'); ?>
 <?php include('includes/db_connect.php'); ?>
 
+ <script>
+    function showCardio(){
+    
+       document.getElementById("stollweights").style.display="none";
+       document.getElementById("stollcardio").style.display="initial";
+
+    }
+ 
+     function showWeights(){
+    
+       document.getElementById("stollcardio").style.display="none";
+       document.getElementById("stollweights").style.display="initial";
+    }
+
+</script>
+
 <body>
 
 <div class="ct" id="tm3">
