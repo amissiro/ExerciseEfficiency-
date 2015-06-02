@@ -28,8 +28,8 @@ body {
   color: #666;
 }
 #signup {
-  width: 100%;
-  height: 100%;
+  width: 75%;
+  height: 75%;
   padding: 20px;
   background: #fff;
   margin: 80px auto;
