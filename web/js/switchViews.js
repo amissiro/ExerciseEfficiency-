@@ -12,6 +12,6 @@
     }
     
     function resetButtons(){
-       document.getElementById("stollweights").style.display="initial";
-       document.getElementById("stollcardio").style.display="initial";
+       document.getElementById("stollweights").style.display="none";
+       document.getElementById("stollcardio").style.display="none";
     }
