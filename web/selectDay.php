@@ -61,15 +61,14 @@
 
         <!-- Tuesday -->
         <div class="page" id="pm1">
-<!-- 
           <?php include('icons.php'); ?>
- -->
+
         </div> 
 
 
         <!-- Wednesday -->
         <div class="page" id="p0"> 
-
+          <?php include('icons.php'); ?>
         </div> 
 
 
