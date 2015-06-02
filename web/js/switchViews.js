@@ -12,8 +12,8 @@
        document.getElementById("stollweights").style.display="initial";
     }
     
-//      function reset(){
-//        document.getElementById("stollweights").style.display="none";
-//        document.getElementById("stollcardio").style.display="none";
-//     }
+     function reset(){
+       document.getElementById("stollweights").style.display="none";
+       document.getElementById("stollcardio").style.display="none";
+    }
 // 
