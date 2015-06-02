@@ -54,16 +54,16 @@
         
         <!-- Monday -->
         <div class="page" id="pm2">
-<!-- 
           <?php include('icons.php'); ?>
- -->
         </div>
   
 
 
         <!-- Tuesday -->
         <div class="page" id="pm1">
+<!-- 
           <?php include('icons.php'); ?>
+ -->
         </div> 
 
 

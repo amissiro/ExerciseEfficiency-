@@ -1,6 +1,6 @@
 <section class="icon"><span class="title" ></span>
-			<button class="btn btn-3 btn-sep icon-heart" onclick="showCardio();">Cardio</button>
-			<button class="btn btn-4 btn-sep icon-dumbbell" onclick="showWeights();">Weights</button>
+			<button class="btn btn-3 btn-sep icon-heart" onclick="showCardio()">Cardio</button>
+			<button class="btn btn-4 btn-sep icon-dumbbell" onclick="showWeights()">Weights</button>
   <br><br><br><br><br>
 <div id="stollcardio" style="display:none">
   <div class="thumbnail-grid flex">
